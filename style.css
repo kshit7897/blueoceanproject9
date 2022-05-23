@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    text-transform: capitalize;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+ header{
+     background-color: rgba(27, 177, 236, 0.415);
+     height: 200px;
+     width: 100%;
+ }
+.mainh, .mainp{
+    text-align: center;
+}
+.bol{
+    float: left;
+}
+.linkr{
+    float: right;   
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+}
+.clearfix::after {
+  clear: both;
+}
